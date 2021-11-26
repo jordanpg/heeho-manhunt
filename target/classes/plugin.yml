@@ -1,0 +1,21 @@
+  name: HeehoManhunt
+  description: Manhunt plugin for heeho activities
+  author: jordanpg
+  api-version: 1.17
+  main: dev.jordanpg.heehomanhunt.HeehoManhunt
+  version: ${version}
+  prefix: HHManhunt
+
+  commands:
+    hhmanhunt:
+      description: Master command for HeehoManhunt
+      usage: "/hhmanhunt [subcmd] [args...]"
+      aliases: hhm
+
+  permissions:
+    heehomanhunt.manageroles:
+      description: Allows managing of manhunt roles using /hhmanhunt add ...
+      default: op
+    heehomanhunt.all:
+      children:
+        heehomanhunt.manageroles: true

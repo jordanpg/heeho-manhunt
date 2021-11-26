@@ -1,0 +1,8 @@
+dev\jordanpg\heehomanhunt\cmd\SubCommand.class
+dev\jordanpg\heehomanhunt\cmd\CommandHHManhunt.class
+dev\jordanpg\heehomanhunt\HeehoManhunt.class
+dev\jordanpg\heehomanhunt\ManhuntManager.class
+dev\jordanpg\heehomanhunt\ManhuntEventListener.class
+dev\jordanpg\heehomanhunt\cmd\SubCommandAdd.class
+dev\jordanpg\heehomanhunt\data\ManhuntTracker.class
+dev\jordanpg\heehomanhunt\ManhuntManager$ManhuntRole.class
